@@ -59,7 +59,7 @@ h1{
     padding: 0 10px;
 
 }
-#container form .btn {
+#container form #post-btn {
     margin-left: 50%;
     transform: translateX(-50%);
     width: 120px;
@@ -79,7 +79,7 @@ h1{
     transition: all 0.3s ease-in-out;
 }
 
-#container form .btn:hover {
+#container form #post-btn:hover {
     background-color: white;
     color: #27a327;
     border-color: #27a327;
