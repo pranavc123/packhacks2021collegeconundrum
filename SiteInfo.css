@@ -1,6 +1,6 @@
 body {
-  background-color: #ececec;
-  color: #444444;
+  background-color: #e7e4e4;
+  color: #000000;
   padding: 0;
   margin: 0;
   perspective: 1px;
@@ -47,7 +47,7 @@ div.navbar {
   top: 0;
   left: 0;
   width: 100%;
-  background: #ee6e73;
+  background: #7FFFD4;
   -webkit-box-shadow: 0px 2px 6px 0px rgba(50, 50, 50, 0.75);
   -moz-box-shadow: 0px 2px 6px 0px rgba(50, 50, 50, 0.75);
   box-shadow: 0px 2px 6px 0px rgba(50, 50, 50, 0.75);
@@ -74,10 +74,12 @@ div.navbar > ul > li:hover {
 a.nav-button {
   font-family: "Roboto";
   text-decoration: none;
+  font-weight: "bold";
+
   line-height: 60px;
   padding-left: 20px;
   padding-right: 20px;
-  color: rgba(228, 241, 254, 1);
+  color: #000000;
   transition: all 0.5s ease;
 }
 a.nav-button:hover {
@@ -100,26 +102,26 @@ li.active > a.nav-button {
   background: url(http://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-70374.jpg)
     no-repeat fixed 50% 0;
   background-size: cover;
-  color: #fff;
+  color: #000000;
 }
 .parallax.p2 {
   background: url(http://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-126549.jpg)
     no-repeat fixed 50% 0;
   background-size: cover;
-  color: #fff;
+  color: #000000;
 }
 .parallax.p3 {
   background: url(http://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-95766.jpg)
     no-repeat fixed 70% 0;
   background-size: cover;
-  color: #fff;
+  color: #000000;
 }
 .parallax-text {
-  width: 24em;
+  width: 34em;
   position: fixed;
   top: 20%;
   left: 50%;
-  border: 0.5em solid #fff;
+  border: 0.5em solid #000000;
   margin-left: -10%;
   padding: 2em 0;
   text-align: center;
@@ -134,11 +136,11 @@ hgroup {
   display: inline-block;
   text-align: center;
   position: relative;
-  top: 50%;
+  top: 20%;
   left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  color: #fff;
-  border: 5px solid #fff;
+  transform: translateX(-50%) translateY(-20%);
+  color: #000000;
+  border: 5px solid #000000;
   padding: 0.5em 3em;
   background-color: rgba(0, 0, 0, 0.2);
   z-index: 2;
@@ -158,35 +160,9 @@ hgroup {
 }
 .row > .col-3 {
   width: 30%;
-  height: 100%;
+  height: 50%;
   box-sizing: border-box;
   float: left;
   padding-left: 5px;
   padding-right: 5px;
-}
-footer {
-  width: 100%;
-  padding-top: 20px;
-  display: block;
-  background-color: #ee6e73;
-}
-.footer-copyright {
-  font-weight: 300;
-  overflow: hidden;
-  height: 50px;
-  line-height: 50px;
-  color: rgba(255, 255, 255, 0.8);
-  background-color: rgba(51, 51, 51, 0.08);
-}
-.container {
-  width: 85%;
-  padding: 0 1.5rem;
-  margin: 0 auto;
-  max-width: 1280px;
-}
-footer p {
-  border-left: 3px solid #ffcdd2;
-  padding-left: 15px;
-  text-indent: 20px;
-  color: #ececec;
 }
