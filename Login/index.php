@@ -26,7 +26,7 @@
             //Javscript code
             $expire = time()+60*60*24;
             setcookie("user", $_POST['username'], $expire, "/");
-            header("Location: http://packhacks2021.srinath.tech/Landing/SiteInfo.php");
+            header("Location: http://packhacks2021.srinath.tech/index");
         }
         curl_close ($ch);
             ?>
