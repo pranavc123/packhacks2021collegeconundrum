@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        title {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Subscription Editor</h2>
+
+    <form action="/action_page.php" id="usrform">
+        <label for="title">Subscription Title:</label><br>
+        <input type="text" id="title" name="title"><br>
+        <br><br>
+        <label for="start">Date paid:</label>
+        <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31">
+        <br><br>
+        <label for="amount">Amount paid:</label><br>
+        <input type="text" id="amount" name="amount"><br><br>
+        <textarea rows="4" cols="50" name="comment" form="usrform">
+            Enter description here...</textarea>
+        <br><br>
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+
+</html>
