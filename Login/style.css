@@ -33,7 +33,7 @@ body{
       background: white;
       color: #222;
   }
-#container form{
+#container div{
     width: 100%;
     height: 100%;
     padding: 20px;
@@ -49,7 +49,7 @@ h1{
     font-weight: 400;
 }
 
-#container form .form-control{
+#container div .form-control{
     width: 100%;
     height: 2rem;
     background: white;
@@ -59,7 +59,7 @@ h1{
     padding: 0 10px;
 
 }
-#container form #post-btn {
+#container div #post-btn {
     margin-left: 50%;
     transform: translateX(-50%);
     width: 120px;
@@ -79,7 +79,7 @@ h1{
     transition: all 0.3s ease-in-out;
 }
 
-#container form #post-btn:hover {
+#container div #post-btn:hover {
     background-color: white;
     color: #27a327;
     border-color: #27a327;
