@@ -23,6 +23,21 @@
         curl_close ($ch);
             ?>
         }
+        function login() {
+            <?php
+            $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL,"http://packhacks2021.srinath.tech/api/registernew");
+        curl_setopt($ch, CURLOPT_POST, 1);
+        curl_setopt($ch, CURLOPT_POSTFIELDS,
+                "username=${_POST['username']}&password=${_POST['password']}&firstName=User&lastName=Name"
+                );
+        curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: application/x-www-form-urlencoded'));
+        // receive server response ...
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        $server_output = curl_exec ($ch);
+        curl_close ($ch);
+            ?>
+        }
     </script>
 
 <body>
@@ -41,7 +56,8 @@
                         <label for="">Password</label>
                         <input type="password" class="form-control" name="password" required>
                     </div>
-                    <button id="post-btn" onclick="myFunction()">Login</button>
+                    <button id="post-btn" onclick="login()">Login</button>
+                    <button id="post-btn" onclick="myFunction()">Sign Up</button>
                 </form>
 
             </div>    
