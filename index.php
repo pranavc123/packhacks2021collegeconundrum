@@ -3,10 +3,10 @@ $currentUser = $_COOKIE["user"];
 ?>
 <!DOCTYPE html>
 <html>
-<title>W3.CSS Template</title>
+<title>ap.CSS Template</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.apschools.com/apcss/4/ap.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
@@ -22,43 +22,43 @@ $currentUser = $_COOKIE["user"];
 </style>
 
 
-<body class="w3-light-grey">
+<body class="ap-light-grey">
 
     <!-- Top container -->
-    <div class="w3-bar w3-top w3-black w3-large" style="z-index:4">
-        <button class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-hover-text-light-grey" onclick="w3_open();"><i
+    <div class="ap-bar ap-top ap-black ap-large" style="z-index:4">
+        <button class="ap-bar-item ap-button ap-hide-large ap-hover-none ap-hover-text-light-grey" onclick="ap_open();"><i
         class="fa fa-bars"></i> Menu</button>
         <li class="nav-item"><a href="Login/index.html" class="left-underline nav-button" data-scroll>Login</a></li>
     </div>
 
     <!-- Sidebar/menu -->
-    <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
-        <div class="w3-container w3-row">
-            <div class="w3-col s4">
-                <img src="/w3images/avatar2.png" class="w3-circle w3-margin-right" style="width:46px">
+    <nav class="ap-sidebar ap-collapse ap-white ap-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+        <div class="ap-container ap-row">
+            <div class="ap-col s4">
+                <img src="/apimages/avatar2.png" class="ap-circle ap-margin-right" style="width:46px">
             </div>
-            <div class="w3-col s8 w3-bar">
+            <div class="ap-col s8 ap-bar">
                 <span>Welcome, <strong><?php echo $currentUser ?></strong></span><br>
-                <a href="#" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i></a>
-                <a href="#" class="w3-bar-item w3-button"><i class="fa fa-user"></i></a>
-                <a href="#" class="w3-bar-item w3-button"><i class="fa fa-cog"></i></a>
+                <a href="#" class="ap-bar-item ap-button"><i class="fa fa-envelope"></i></a>
+                <a href="#" class="ap-bar-item ap-button"><i class="fa fa-user"></i></a>
+                <a href="#" class="ap-bar-item ap-button"><i class="fa fa-cog"></i></a>
             </div>
         </div>
         <hr>
-        <div class="w3-container">
+        <div class="ap-container">
             <h5> Subscription Dashboard</h5>
         </div>
-        <div class="w3-bar-block">
-            <a href="#" class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black" onclick="w3_close()" title="close menu"><i class="fa fa-remove fa-fw"></i>  Close Menu</a>
-            <a href="#" class="w3-bar-item w3-button w3-padding w3-blue"><i class="fa fa-users fa-fw"></i>  Overview</a>
-            <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-eye fa-fw"></i>  Transactions</a>
-            <!--             <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-users fa-fw"></i>  Traffic</a>
-            <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bullseye fa-fw"></i>  Geo</a>
-            <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-diamond fa-fw"></i>  Orders</a>
-            <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bell fa-fw"></i>  News</a>
-            <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bank fa-fw"></i>  General</a>
-            <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-history fa-fw"></i>  History</a>
-            <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-cog fa-fw"></i>  Settings</a><br><br> -->
+        <div class="ap-bar-block">
+            <a href="#" class="ap-bar-item ap-button ap-padding-16 ap-hide-large ap-dark-grey ap-hover-black" onclick="ap_close()" title="close menu"><i class="fa fa-remove fa-fw"></i>  Close Menu</a>
+            <a href="#" class="ap-bar-item ap-button ap-padding ap-blue"><i class="fa fa-users fa-fw"></i>  Overview</a>
+            <a href="#" class="ap-bar-item ap-button ap-padding"><i class="fa fa-eye fa-fw"></i>  Transactions</a>
+            <!--             <a href="#" class="ap-bar-item ap-button ap-padding"><i class="fa fa-users fa-fw"></i>  Traffic</a>
+            <a href="#" class="ap-bar-item ap-button ap-padding"><i class="fa fa-bullseye fa-fw"></i>  Geo</a>
+            <a href="#" class="ap-bar-item ap-button ap-padding"><i class="fa fa-diamond fa-fw"></i>  Orders</a>
+            <a href="#" class="ap-bar-item ap-button ap-padding"><i class="fa fa-bell fa-fw"></i>  News</a>
+            <a href="#" class="ap-bar-item ap-button ap-padding"><i class="fa fa-bank fa-fw"></i>  General</a>
+            <a href="#" class="ap-bar-item ap-button ap-padding"><i class="fa fa-history fa-fw"></i>  History</a>
+            <a href="#" class="ap-bar-item ap-button ap-padding"><i class="fa fa-cog fa-fw"></i>  Settings</a><br><br> -->
         </div>
     </nav>
 
@@ -66,63 +66,63 @@ $currentUser = $_COOKIE["user"];
 
 
     <!-- Overlay effect when opening sidebar on small screens -->
-    <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+    <div class="ap-overlay ap-hide-large ap-animate-opacity" onclick="ap_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
     <!-- !PAGE CONTENT! -->
-    <div class="w3-main" style="margin-left:300px;margin-top:43px;">
+    <div class="ap-main" style="margin-left:300px;margin-top:43px;">
 
         <!-- Header -->
-        <header class="w3-container" style="padding-top:22px">
+        <header class="ap-container" style="padding-top:22px">
             <h5><b><i class="fa fa-dashboard"></i> Upcoming Transactions</b></h5>
         </header>
 
-        <div class="w3-row-padding w3-margin-bottom">
-            <div class="w3-quarter">
-                <div class="w3-container w3-red w3-padding-16">
-                    <div class="w3-left"><img src="Icons/number1.png" style="width:50px;height:50px;"></div>
-                    <div class="w3-right">
+        <div class="ap-row-padding ap-margin-bottom">
+            <div class="ap-quarter">
+                <div class="ap-container ap-red ap-padding-16">
+                    <div class="ap-left"><img src="Icons/number1.png" style="width:50px;height:50px;"></div>
+                    <div class="ap-right">
                         <h5>Days Until Payment: 3</h5>
                     </div>
-                    <div class="w3-clear"></div>
+                    <div class="ap-clear"></div>
                     <h4>Netflix</h4>
                 </div>
             </div>
-            <div class="w3-quarter">
-                <div class="w3-container w3-blue w3-padding-16">
-                    <div class="w3-left"><img src="Icons/number2.png" style="width:50px;height:50px;"></div>
-                    <div class="w3-right">
+            <div class="ap-quarter">
+                <div class="ap-container ap-blue ap-padding-16">
+                    <div class="ap-left"><img src="Icons/number2.png" style="width:50px;height:50px;"></div>
+                    <div class="ap-right">
                         <h5>Days Until Payment: 5</h5>
                     </div>
-                    <div class="w3-clear"></div>
+                    <div class="ap-clear"></div>
                     <h4>Amazon Prime</h4>
                 </div>
             </div>
-            <div class="w3-quarter">
-                <div class="w3-container w3-light-green w3-padding-16">
-                    <div class="w3-left"><img src="Icons/number3.png" style="width:50px;height:50px;"></div>
-                    <div class="w3-right">
+            <div class="ap-quarter">
+                <div class="ap-container ap-light-green ap-padding-16">
+                    <div class="ap-left"><img src="Icons/number3.png" style="width:50px;height:50px;"></div>
+                    <div class="ap-right">
                         <h5>Days Until Payment: 6</h5>
                     </div>
-                    <div class="w3-clear"></div>
+                    <div class="ap-clear"></div>
                     <h4>Hulu</h4>
                 </div>
             </div>
-            <div class="w3-quarter">
-                <div class="w3-container w3-green w3-text-white w3-padding-16">
-                    <div class="w3-left"><img src="Icons/number4.png" style="width:50px;height:50px;"></div>
-                    <div class="w3-right">
+            <div class="ap-quarter">
+                <div class="ap-container ap-green ap-text-white ap-padding-16">
+                    <div class="ap-left"><img src="Icons/number4.png" style="width:50px;height:50px;"></div>
+                    <div class="ap-right">
                         <h5>Days Until Payment: 7</h5>
                     </div>
-                    <div class="w3-clear"></div>
+                    <div class="ap-clear"></div>
                     <h4>Spotify</h4>
                 </div>
             </div>
         </div>
 
-        <div class="w3-panel">
-            <div class="w3-row-padding" style="margin:0 -16px">
-                <div class="w3-container">
+        <div class="ap-panel">
+            <div class="ap-row-padding" style="margin:0 -16px">
+                <div class="ap-container">
                     <h5>Most Expensive Subscriptions Past Month</h5>
-                    <table class="w3-table w3-striped w3-white">
+                    <table class="ap-table ap-striped ap-white">
                         
                             <?php
           
@@ -145,28 +145,28 @@ $currentUser = $_COOKIE["user"];
             </div>
         </div>
         <hr>
-        <!--   <div class="w3-container">
+        <!--   <div class="ap-container">
             <h5>General Stats</h5>
             <p>Change in Spending</p>
-            <div class="w3-grey">
-                <div class="w3-container w3-center w3-padding w3-green" style="width:25%">+25%</div>
+            <div class="ap-grey">
+                <div class="ap-container ap-center ap-padding ap-green" style="width:25%">+25%</div>
             </div>
 
             <p>New Users</p>
-            <div class="w3-grey">
-                <div class="w3-container w3-center w3-padding w3-orange" style="width:50%">50%</div>
+            <div class="ap-grey">
+                <div class="ap-container ap-center ap-padding ap-orange" style="width:50%">50%</div>
             </div>
 
             <p>Bounce Rate</p>
-            <div class="w3-grey">
-                <div class="w3-container w3-center w3-padding w3-red" style="width:75%">75%</div>
+            <div class="ap-grey">
+                <div class="ap-container ap-center ap-padding ap-red" style="width:75%">75%</div>
             </div>
         </div>
         <hr>
 
-        <div class="w3-container">
+        <div class="ap-container">
             <h5>Recent Transactions</h5>
-            <table class="w3-table w3-striped w3-bordered w3-border w3-hoverable w3-white">
+            <table class="ap-table ap-striped ap-bordered ap-border ap-hoverable ap-white">
                 <tr>
                     <td>United States</td>
                     <td>65%</td>
@@ -192,68 +192,68 @@ $currentUser = $_COOKIE["user"];
                     <td>1.5%</td>
                 </tr>
             </table><br>
-            <button class="w3-button w3-dark-grey">Complete List of Recent Transactions <i
+            <button class="ap-button ap-dark-grey">Complete List of Recent Transactions <i
           class="fa fa-arrow-right"></i></button>
         </div> -->
         <!--   <hr>
-  <div class="w3-container">
+  <div class="ap-container">
     <h5>Recent Users</h5>
-    <ul class="w3-ul w3-card-4 w3-white">
-      <li class="w3-padding-16">
-        <img src="/w3images/avatar2.png" class="w3-left w3-circle w3-margin-right" style="width:35px">
-        <span class="w3-xlarge">Mike</span><br>
+    <ul class="ap-ul ap-card-4 ap-white">
+      <li class="ap-padding-16">
+        <img src="/apimages/avatar2.png" class="ap-left ap-circle ap-margin-right" style="width:35px">
+        <span class="ap-xlarge">Mike</span><br>
       </li>
-      <li class="w3-padding-16">
-        <img src="/w3images/avatar5.png" class="w3-left w3-circle w3-margin-right" style="width:35px">
-        <span class="w3-xlarge">Jill</span><br>
+      <li class="ap-padding-16">
+        <img src="/apimages/avatar5.png" class="ap-left ap-circle ap-margin-right" style="width:35px">
+        <span class="ap-xlarge">Jill</span><br>
       </li>
-      <li class="w3-padding-16">
-        <img src="/w3images/avatar6.png" class="w3-left w3-circle w3-margin-right" style="width:35px">
-        <span class="w3-xlarge">Jane</span><br>
+      <li class="ap-padding-16">
+        <img src="/apimages/avatar6.png" class="ap-left ap-circle ap-margin-right" style="width:35px">
+        <span class="ap-xlarge">Jane</span><br>
       </li>
     </ul>
   </div>
   <hr> -->
 
-        <!--         <div class="w3-container">
+        <!--         <div class="ap-container">
             <h5>Recent Comments</h5>
-            <div class="w3-row">
-                <div class="w3-col m2 text-center">
-                    <img class="w3-circle" src="/w3images/avatar3.png" style="width:96px;height:96px">
+            <div class="ap-row">
+                <div class="ap-col m2 text-center">
+                    <img class="ap-circle" src="/apimages/avatar3.png" style="width:96px;height:96px">
                 </div>
-                <div class="w3-col m10 w3-container">
-                    <h4>John <span class="w3-opacity w3-medium">Sep 29, 2014, 9:12 PM</span></h4>
+                <div class="ap-col m10 ap-container">
+                    <h4>John <span class="ap-opacity ap-medium">Sep 29, 2014, 9:12 PM</span></h4>
                     <p>Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><br>
                 </div>
             </div>
 
-            <div class="w3-row">
-                <div class="w3-col m2 text-center">
-                    <img class="w3-circle" src="/w3images/avatar1.png" style="width:96px;height:96px">
+            <div class="ap-row">
+                <div class="ap-col m2 text-center">
+                    <img class="ap-circle" src="/apimages/avatar1.png" style="width:96px;height:96px">
                 </div>
-                <div class="w3-col m10 w3-container">
-                    <h4>Bo <span class="w3-opacity w3-medium">Sep 28, 2014, 10:15 PM</span></h4>
+                <div class="ap-col m10 ap-container">
+                    <h4>Bo <span class="ap-opacity ap-medium">Sep 28, 2014, 10:15 PM</span></h4>
                     <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><br>
                 </div>
             </div>
         </div> -->
         <br>
-        <!-- <div class="w3-container w3-dark-grey w3-padding-32">
-            <div class="w3-row">
-                <div class="w3-container w3-third">
-                    <h5 class="w3-bottombar w3-border-green">Demographic</h5>
+        <!-- <div class="ap-container ap-dark-grey ap-padding-32">
+            <div class="ap-row">
+                <div class="ap-container ap-third">
+                    <h5 class="ap-bottombar ap-border-green">Demographic</h5>
                     <p>Language</p>
                     <p>Country</p>
                     <p>City</p>
                 </div>
-                <div class="w3-container w3-third">
-                    <h5 class="w3-bottombar w3-border-red">System</h5>
+                <div class="ap-container ap-third">
+                    <h5 class="ap-bottombar ap-border-red">System</h5>
                     <p>Browser</p>
                     <p>OS</p>
                     <p>More</p>
                 </div>
-                <div class="w3-container w3-third">
-                    <h5 class="w3-bottombar w3-border-orange">Target</h5>
+                <div class="ap-container ap-third">
+                    <h5 class="ap-bottombar ap-border-orange">Target</h5>
                     <p>Users</p>
                     <p>Active</p>
                     <p>Geo</p>
@@ -263,9 +263,9 @@ $currentUser = $_COOKIE["user"];
         </div>
  -->
         <!-- Footer -->
-        <!-- <footer class="w3-container w3-padding-16 w3-light-grey">
+        <!-- <footer class="ap-container ap-padding-16 ap-light-grey">
             <h4>FOOTER</h4>
-            <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+            <p>Powered by <a href="https://www.apschools.com/apcss/default.asp" target="_blank">ap.css</a></p>
         </footer> -->
 
         <!-- End page content -->
@@ -279,7 +279,7 @@ $currentUser = $_COOKIE["user"];
         var overlayBg = document.getElementById("myOverlay");
 
         // Toggle between showing and hiding the sidebar, and add overlay effect
-        function w3_open() {
+        function ap_open() {
             if (mySidebar.style.display === 'block') {
                 mySidebar.style.display = 'none';
                 overlayBg.style.display = "none";
@@ -290,7 +290,7 @@ $currentUser = $_COOKIE["user"];
         }
 
         // Close the sidebar with the close button
-        function w3_close() {
+        function ap_close() {
             mySidebar.style.display = "none";
             overlayBg.style.display = "none";
         }

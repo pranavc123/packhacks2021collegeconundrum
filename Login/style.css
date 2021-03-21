@@ -56,7 +56,7 @@ h1 {
     margin: 10px 0px 18px 0px;
     padding: 0 10px;
 }
-#container form #post-btn {
+button {
     margin-left: 50%;
     transform: translateX(-50%);
     width: 120px;
@@ -76,7 +76,7 @@ h1 {
     transition: all 0.3s ease-in-out;
 }
 
-#container form #post-btn:hover {
+button:hover {
     background-color: white;
     color: #27a327;
     border-color: #27a327;
