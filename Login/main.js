@@ -1,4 +1,4 @@
-const button = document.getElementById('post-btn');
+/*const button = document.getElementById('post-btn');
 
 button.addEventListener('click', async _ => {
   console.log("Hello");
@@ -19,35 +19,46 @@ button.addEventListener('click', async _ => {
   // } catch(err) {
   //   console.error(`Error: ${err}`);
 //   // }
+
+const params = new URLSearchParams()
+params.append('username', 'testUsername')
+params.append('password', 'pw')
+params.append('firstName', 'asdf')
+params.append('lastName', 'asdf')
+
   const config = {
     headers: {
       // "Access-Control-Allow-Origin": "*",
      
       "Content-Type": "application/x-www-form-urlencoded", 
-      // "Accept": "*/*",
-      "Connection": "keep-alive",
+      // "Accept": "*//*",
       // "Accept-Encoding": "gzip, deflate, br",
 
     }
   };
 
+/*
   const newPost = {
-          body: {
+          form: {
         username: 'testUser',
         password: 'testPassword',
         firstName: '',
         lastName: ''
       }
   };
+  */
+ 
 
 
+/*
  axios
 	.post(
 		"http://packhacks2021.srinath.tech/api/registernew",
-		newPost,
+		params,
 		config
 	)
 	.then((response) => console.log(response.data))
 	.catch((error) => console.log(error.response));
 
 });
+*/
