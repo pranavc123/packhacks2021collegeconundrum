@@ -21,16 +21,12 @@
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         $server_output = curl_exec ($ch);
         $jsonOutput = json_decode($server_output, true);
-        if ($jsonOutput['status'] == 1) {
-            ?>
+        if (intval($jsonOutput['status']) == 1 && !empty($_POST['password'])) {
             //Placeholder url to be navigated to on succesful authentication
             //Javscript code
-            window.location.href = 'http://packhacks2021.srinath.tech/api/getusers';
-            <?php
-        } else {
-            ?>
-            alert("<?php echo $json_output["Error"] ?>");
-            <?php
+            $expire = time()+60*60*24;
+            setcookie("user", $_POST['username'], $expire, "/");
+            header("Location: http://packhacks2021.srinath.tech/Landing/SiteInfo.php");
         }
         curl_close ($ch);
             ?>

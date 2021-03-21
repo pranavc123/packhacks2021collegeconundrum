@@ -1,3 +1,6 @@
+<?php
+
+?>
 <html>
   <head>
     <title>Parallax Template - uplusion23</title>
@@ -16,6 +19,25 @@
       <hgroup>
         <h1>Subscriptions.io</h1>
       </hgroup>
+    </div>
+    <div class="row">
+      <div class="column">
+        <h2>Ongoing Subscriptions</h>
+        <?php
+          $currentUser = $_COOKIE["user"];
+          $decodedSub = json_decode(file_get_contents("http://packhacks2021.srinath.tech/api/getsubscriptions?username=$currentUser"), true);
+          for ($i = 0; $i < count($decodedSub["info"]); $i++) {
+            $title = $decodedSub["info"][$i]["title"];
+            ?>
+            <h3><?php echo $title; ?></h3>
+            <?php
+          }
+          
+        ?>
+      </div>
+      <div class="column">
+        <h2>Recent Transactions</h2>
+      </div>
     </div>
     <div class="row">
       <div class="col-3">
