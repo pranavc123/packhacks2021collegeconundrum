@@ -11,7 +11,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
 
     $post_data_query = $conn->query($sql);
     if($post_data_query){
-        if (count($post_data_query)) {
+        if (count($post_data_query->fetch_row()) > 0) {
             $json = array("status" => 1, "Success" => "User has been authenticated.");
         } else {
             $json = array("status" => 0, "Error" => "Invalid username or password.");
